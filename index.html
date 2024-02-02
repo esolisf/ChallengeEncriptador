@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador challenge</title>
+</head>
+
+<body>
+    <div class="encabezado">
+        <header>
+            <img  id="imageAlura" src="a + o.png" alt="Logo Alura Latam + Oracle">
+        </header>
+    </div>
+
+    <main>
+
+        <section class="panelIzquierdo">
+            <textarea  class="textArea" placeholder="Ingrese el texto aquí" required></textarea>
+            <div class="alerta">
+                <img src="alerta.svg" alt="Símbolo de alerta" >
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <input type="button" class="botonEncriptar" value="Encriptar">
+                <input type="button" class="botonDesencriptar" value="Desencriptar">
+               
+            </div>
+        </section>
+
+        <section class="panelDerecho">
+            <div class="contenedorImagen">
+                <img src="Muñeco.svg" class="muneco" alt="imagen de una llave y fondo cibernético">
+            </div>
+            <div class="tituloDerecho">
+                <h2>No se encontró ningún mensaje</h2>
+                <p>Escribe el texto que desea encriptar o desencriptar</p>
+            </div>
+            <div class="copy">
+                <input type="button" class="btn-copiar" value="Copiar" >
+            </div>
+            <div class="contenedorResultado">
+                <p class="textoResultado"></p>
+            </div>
+                 
+        </section>
+
+    </main>
+    <script src="JavaScript.js"></script>
+ 
+    <footer>
+        <p>Desarrollado por Edgar Andrés Solís Fernández</p>
+        <p>Febrero del 2024</p>
+    </footer>
+    
+</body>
+</html>
+
